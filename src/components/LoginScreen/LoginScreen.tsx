@@ -40,7 +40,9 @@ export function LoginScreen({ onLogin }: Props) {
       <form className={styles.card} onSubmit={handleSubmit}>
         <div className={styles.logo}>G</div>
         <h1 className={styles.title}>Вход в чат</h1>
-        <p className={styles.subtitle}>Данные инстанса из личного кабинета GREEN&#8209;API</p>
+        <p className={styles.subtitle}>
+          Данные инстанса из личного кабинета <span className={styles.nowrap}>GREEN-API</span>
+        </p>
 
         <label className={styles.field}>
           <span>idInstance</span>

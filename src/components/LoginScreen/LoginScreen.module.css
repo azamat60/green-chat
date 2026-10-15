@@ -98,3 +98,7 @@
 .submit:disabled {
   opacity: 0.5;
 }
+
+.nowrap {
+  white-space: nowrap;
+}
